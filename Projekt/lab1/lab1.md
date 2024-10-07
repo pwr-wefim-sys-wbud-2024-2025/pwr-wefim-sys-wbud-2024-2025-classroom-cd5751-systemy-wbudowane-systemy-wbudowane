@@ -10,6 +10,6 @@
   - testing
 
 
-## Instalacja Docker (jeżeli konieczna):  
-- [Instalacja WSL2 na windows](https://learn.microsoft.com/en-us/windows/wsl/install)
-- [Instalacja Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
+## Nauka Git i GitHub
+- przeczytaj README z repozytorium intro to Git i Github
+- zrób https://githubtraining.github.io/training-manual/#/
