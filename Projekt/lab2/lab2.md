@@ -3,10 +3,8 @@
 ## Konfiguracja GitHUB Codespaces
 
 1. https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces
-2. https://github.com/microsoft/vscode-remote-try-python  >> utworz swoje repo **sys-wbud-python-env**
+2. Skorzystaj z codespace, z wcześniejszego modułu lub utwórz nowe: https://github.com/github/codespaces-blank
 3. Add "feature"  ghcr.io/devcontainers/features/docker-outside-of-docker:1
-4. https://docs.github.com/en/codespaces/developing-in-a-codespace/using-github-codespaces-in-visual-studio-code
-
 
 ## Python w Docker
 - [Docker](https://docker-curriculum.com/#introduction)
