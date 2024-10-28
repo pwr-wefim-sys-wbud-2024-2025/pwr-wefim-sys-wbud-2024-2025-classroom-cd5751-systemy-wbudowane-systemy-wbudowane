@@ -1,10 +1,8 @@
 # Stworzenie Modułu - symulacyjnego - odczyt danych środowiskowych
 
 ## Konfiguracja GitHUB Codespaces
-
-1. https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces
-2. Skorzystaj z codespace, z wcześniejszego modułu lub utwórz nowe: https://github.com/github/codespaces-blank
-3. Add "feature"  ghcr.io/devcontainers/features/docker-outside-of-docker:1
+1. Skorzystaj z codespace, z wcześniejszego modułu lub utwórz nowe: https://github.com/github/codespaces-blank
+2. Add "feature"  ghcr.io/devcontainers/features/docker-outside-of-docker:1  na podstawie instrukcji:  https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces
 
 ## Python w Docker
 - [Docker](https://docker-curriculum.com/#introduction)
