@@ -41,31 +41,7 @@ Możesz użyć przykładowej konfiguracji debugowania (folder `.vscode`) oraz do
 - Konfiguracja CodeSpaces: https://github.com/bpasz/codespaces-project-template-py
 - Konfiguracje są w folderze `DataRequstor` `cd DataRequestor/`
 - Komenda do odpalania z folderu `DataRequester` jest taka: `docker compose -f docker-compose.debug.yml up`
-- Pobieranie aktualnej jakości powietrza dla wybranej lokacji z API - https://docs.openaq.org/docs/introduction
+- Pobieranie aktualnej jakości powietrza dla wybranej lokacji z API - [https://docs.openaq.org/docs/introduction](https://docs.openaq.org/about/about)
 - Wysyłanie danych z lokacji po MQTT
 
-# Poniżej archiwum
-## Siemens S7 Data Blocks
-- [Co to są DBs](https://www.automation.siemens.com/sce-static/learning-training-documents/classic/advanced-programming/b04-data-blocks-en.pdf)
-- [Wstęp do biblioteki Snap7](https://snap7.sourceforge.net/) > dział Snap7 Package/ Overview
-- [Pobierz wersję `1.4.2`](https://sourceforge.net/projects/snap7/files/1.4.2/snap7-full-1.4.2.7z/download)
 
-
-
-## Symulator PLC
-
-1. Stwórz dockerfile z apką Python
-2. Instalacja zarówno w ramach pliku Docker, jak i środowiska wirtualnego [python-snap7)](https://python-snap7.readthedocs.io/en/latest/)
-3. Stworzenie serwera symulującego Simens DataBlock https://python-snap7.readthedocs.io/en/latest/API/server.html
-   1. DB100
-   2. 10 x string (100 znaków max lenght)
-   3. 2 x 8 bool
-   4. Struktura EnvMeasurement x 20
-      1. String - nazwa pomiaru
-      2. Real - wartość
-      3. Real - timestamp pomiaru
-   5. Wpisywane są co 5s przypadkowe wartości
-4. Potwierdzenie za pomocą klienta z 1.4.2 działania serwera
-5. Pobieranie aktualnej jakości powietrza dla wybranej lokacji z API - https://docs.openaq.org/docs/introduction
-   1. wpisywanie do data blocku do struktury EnvMeasurement odczytanych wartości
-   
