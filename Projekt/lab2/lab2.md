@@ -3,7 +3,9 @@
 ## Konfiguracja GitHUB Codespaces
 1. Skorzystaj z codespace, z wcześniejszego modułu lub utwórz nowe: https://github.com/github/codespaces-blank
 2. Add "feature"  ghcr.io/devcontainers/features/docker-outside-of-docker:1  na podstawie instrukcji:  https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces
-  - nazwa z rozwijanej listy **Docker  (docker-outside-of-docker) - devcontainers** < bardzo ważne
+    - Wybierz z lity `modify existing configuration`
+    - nazwa z rozwijanej listy `Docker  (docker-outside-of-docker) - devcontainers` < bardzo ważne
+    - Domyślne paramtery są w porządku
 
 ## Python w Docker
 - [Docker](https://docker-curriculum.com/#introduction)
