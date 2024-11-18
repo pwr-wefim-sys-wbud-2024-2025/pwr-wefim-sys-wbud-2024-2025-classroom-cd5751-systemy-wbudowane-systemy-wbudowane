@@ -31,17 +31,11 @@ data={....struktura powyżej....}
 data_to_send=json.dumps(data)
 print(data_to_send)
 ```
-
+Skorzystaj z API: - Pobieranie aktualnej jakości powietrza dla wybranej lokacji z API - [https://docs.openaq.org/docs/introduction](https://docs.openaq.org/about/about)
 Wymagania:
 - Opakuj pobieranie danych w klasę WeatherRequester, która przyjmuje w konstruktorze lokację
 - Podawaj lokację jako zmienną środowiskową
 - Po przetestowaniu zamknij swój skrypt w postaci kontenera docker i uruchamiaj go z docker-compose
 
-Możesz użyć przykładowej konfiguracji debugowania (folder `.vscode`) oraz docker stąd:
-- Konfiguracja CodeSpaces: https://github.com/bpasz/codespaces-project-template-py
-- Konfiguracje są w folderze `DataRequstor` `cd DataRequestor/`
-- Komenda do odpalania z folderu `DataRequester` jest taka: `docker compose -f docker-compose.debug.yml up`
-- Pobieranie aktualnej jakości powietrza dla wybranej lokacji z API - [https://docs.openaq.org/docs/introduction](https://docs.openaq.org/about/about)
-- Wysyłanie danych z lokacji po MQTT
 
 
