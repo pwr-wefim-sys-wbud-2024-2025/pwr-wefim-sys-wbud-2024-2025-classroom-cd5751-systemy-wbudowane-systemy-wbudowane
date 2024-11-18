@@ -2,7 +2,8 @@
 
 ## Konfiguracja GitHUB Codespaces
 1. Skorzystaj z codespace, z wcześniejszego modułu lub utwórz nowe: https://github.com/github/codespaces-blank
-2. Add "feature"  ghcr.io/devcontainers/features/docker-outside-of-docker:1  na podstawie instrukcji:  https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces
+2. Dodaj możliwość łączenia się z silnikiem dockerowym z terminala codespaces
+    - Access the Visual Studio Code Command Palette (Shift+Command+P / Ctrl+Shift+P), then start typing "add dev". Click Codespaces: Add Dev         Container Configuration Files.
     - Wybierz z lity `modify existing configuration`
     - nazwa z rozwijanej listy `Docker  (docker-outside-of-docker) - devcontainers` < bardzo ważne
     - Domyślne paramtery są w porządku
